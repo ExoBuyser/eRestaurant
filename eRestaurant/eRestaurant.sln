@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{67881C1F-7EC6-4B6C-8AD8-8407E737D766}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8519"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8519\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8519"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8519\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8519"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem", "eRestaurantSystem\eRestaurantSystem.csproj", "{05DD966F-546E-4EF1-9BC0-AFF4CC9A7A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem.Data", "eRestaurantSystem.Data\eRestaurantSystem.Data.csproj", "{589FDD60-4EC3-4086-8E54-382981FE7A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67881C1F-7EC6-4B6C-8AD8-8407E737D766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67881C1F-7EC6-4B6C-8AD8-8407E737D766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67881C1F-7EC6-4B6C-8AD8-8407E737D766}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{67881C1F-7EC6-4B6C-8AD8-8407E737D766}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{05DD966F-546E-4EF1-9BC0-AFF4CC9A7A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DD966F-546E-4EF1-9BC0-AFF4CC9A7A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DD966F-546E-4EF1-9BC0-AFF4CC9A7A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DD966F-546E-4EF1-9BC0-AFF4CC9A7A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589FDD60-4EC3-4086-8E54-382981FE7A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589FDD60-4EC3-4086-8E54-382981FE7A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589FDD60-4EC3-4086-8E54-382981FE7A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589FDD60-4EC3-4086-8E54-382981FE7A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
