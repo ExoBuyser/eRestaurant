@@ -40,13 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ENTITIES\item.cs" />
-    <Compile Include="ENTITIES\menucategory.cs" />
+    <Compile Include="DTOs\MenuCategoryFoodItemsDTO.cs" />
+    <Compile Include="Entities\Item.cs" />
+    <Compile Include="Entities\MenuCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DTO%27s\" />
-    <Folder Include="POCO%27s\" />
+    <Folder Include="POCOs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eRestaurantSystem.Data.ENTITIES
+namespace eRestaurantSystem.Data.Entities
 {
-    class menucategory
+    [Table("MenuCategories")]
+    public class MenuCategory
     {
+        [key]
+        public int MenuCategoryID { get; set; }
+        public string Description { get; set; }
     }
 }
